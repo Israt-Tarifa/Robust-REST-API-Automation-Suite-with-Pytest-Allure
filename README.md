@@ -1,32 +1,52 @@
-﻿```markdown
-### Robust REST API Automation Suite 🚀
+# Robust REST API Automation Suite with Pytest & Allure 🚀
+
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Pytest](https://img.shields.io/badge/Tested%20with-Pytest-white.svg)](https://docs.pytest.org/)
 [![Allure](https://img.shields.io/badge/Report-Allure-green.svg)](https://docs.qameta.io/allure/)
 
-A professional-grade API automation framework built using **Python**, **Pytest**, and **Requests**. This suite follows a modular architecture to ensure scalability, easy maintenance, and clear reporting for complex API testing scenarios.
+This is a professional-grade API automation framework built to ensure high-quality RESTful service validation. It uses **Python**, **Pytest**, and **Allure Reports** to provide a scalable and highly visual testing experience.
 
 ---
 
-## 📸 Allure Report Preview
-![Allure Report Dashboard](./assets/allure_dashboard.png)
-*Figure 1: High-level overview of test execution results.*
+## 📊 Test Execution Dashboards
+
+### Allure Overview
+Below is the high-level summary of the test execution results, showcasing the pass/fail ratio and overall test health.
+![Allure Dashboard](./assets/allure.png)
+
+### Graphical Analysis
+Visual representation of test severity, duration, and status trends.
+![Test Graphs](./assets/Graphs.png)
+
+### Category & Suite Breakdown
+Detailed view of test cases organized by their functional categories and suites.
+![Category View](./assets/Catagory.png)
+
+### Execution Timeline
+A visual timeline showing when each test was executed and how long it took.
+![Timeline](./assets/timeline.png)
 
 ---
 
-## 🌟 Key Features
-*   **Modular Design**: Separated concerns for test cases, utility functions, and configurations.
-*   **Data-Driven Testing**: Capability to handle multiple test datasets efficiently.
-*   **Advanced Reporting**: Detailed execution logs, step-by-step breakdowns, and visual dashboards via Allure.
-*   **Custom Utilities**: Specialized helpers for API requests, JSON parsing, and validation.
-*   **Flexible Config**: Managed environment settings through `pytest.ini`.
+## 🌟 Project Key Features
+*   **Comprehensive API Testing**: Validates REST endpoints for status codes, response bodies, and headers.
+*   **Modular Framework**: Separated logic for `test_cases` and `utils` for better maintainability.
+*   **Rich Reporting**: Advanced reporting with screenshots, steps, and graphs using Allure.
+*   **Configurable**: Easy management of environment settings via `pytest.ini`.
 
-## 📂 Project Structure
+## 📂 Directory Structure
 ```text
-├── assets/             # Project screenshots and media
-├── test_cases/         # Functional test scripts for different API modules
-├── utils/              # Common helper classes and API wrappers
-├── .gitignore          # Files to be excluded from version control
-├── pytest.ini          # Pytest global configuration
+├── assets/             # Project screenshots and visual reports
+├── test_cases/         # Functional API test scripts
+├── utils/              # Helper functions and reusable API wrappers
+├── pytest.ini          # Global configuration for Pytest
 ├── requirements.txt    # Project dependencies
-└── README.md           # Documentation
+└── README.md           # Project documentation
+
+---
+
+## 👩‍💻 Author
+**Israt Jahan Tarifa**    
+[LinkedIn](https://www.linkedin.com/in/israt-tarifa/) | [GitHub](https://github.com/Israt-Tarifa)
+
+---
