@@ -42,11 +42,9 @@ A visual timeline showing when each test was executed and how long it took.
 ├── pytest.ini          # Global configuration for Pytest
 ├── requirements.txt    # Project dependencies
 └── README.md           # Project documentation
-
----
+```
 
 ## 👩‍💻 Author
-**Israt Jahan Tarifa**    
-[LinkedIn](https://www.linkedin.com/in/israt-tarifa/) | [GitHub](https://github.com/Israt-Tarifa)
-
----
+**Israt Jahan Tarifa**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/israt-tarifa/) 
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-lightgrey?style=flat&logo=github)](https://github.com/Israt-Tarifa)
